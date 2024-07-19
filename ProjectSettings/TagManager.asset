@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - UndoMovePowerupCount
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - On Top UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Tile
+    uniqueID: 1399883485
+    locked: 0
+  - name: Waffle
+    uniqueID: 2030187851
+    locked: 0
+  - name: Item
+    uniqueID: 2536467965
+    locked: 0
+  - name: Cage
+    uniqueID: 4249396531
+    locked: 0
+  - name: Effect
+    uniqueID: 3681425887
+    locked: 0
+  - name: UILayer
+    uniqueID: 1074720869
+    locked: 0

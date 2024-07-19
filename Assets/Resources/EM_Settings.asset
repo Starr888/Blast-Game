@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f586958a515650c72a388b48836387ee, type: 3}
+  m_Name: EM_Settings
+  m_EditorClassIdentifier:
+  _advertisingSettings:
+    _iosAdColonyConfig:
+      appId:
+      interstitialAdId:
+      rewardedAdId:
+    _androidAdColonyConfig:
+      appId:
+      interstitialAdId:
+      rewardedAdId:
+    _adColonyAdOrientation: 2
+    _adColonyShowRewardedAdPrePopup: 0
+    _adColonyShowRewardedAdPostPopup: 0
+    _iosAdMobConfig:
+      bannerAdId: ca-app-pub-2693117952552713/8392679789
+      interstitialAdId: ca-app-pub-2693117952552713/9869412988
+      rewardedAdId: ca-app-pub-2693117952552713/2346146184
+    _androidAdMobConfig:
+      bannerAdId: ca-app-pub-2693117952552713/3962480187
+      interstitialAdId: ca-app-pub-2693117952552713/8532280589
+      rewardedAdId: ca-app-pub-2693117952552713/5439213389
+    _admobDesignedForFamilies: 0
+    _adMobChildDirected: 2
+    _admobEnableTestMode: 0
+    _admobTestDeviceIds: []
+    _heyzapPublisherId:
+    _heyzapShowTestSuite: 0
+    _autoLoadDefaultAds: 0
+    _adCheckingInterval: 1000000
+    _adLoadingInterval: 2000000
+    _iosDefaultAdNetworks:
+      bannerAdNetwork: 2
+      interstitialAdNetwork: 2
+      rewardedAdNetwork: 2
+    _androidDefaultAdNetwork:
+      bannerAdNetwork: 2
+      interstitialAdNetwork: 2
+      rewardedAdNetwork: 2
+  _gameServiceSettings:
+    _gpgsDebugLog: 1
+    _autoInit: 0
+    _autoInitDelay: 0
+    _androidMaxLoginRequests: 3
+    _leaderboards:
+    - _name: score leaderboard
+      _iosId: score leaderboard
+      _androidId: CgkI9ta93JYdEAIQAQ
+    - _name: star leaderboard
+      _iosId: star leaderboard
+      _androidId: CgkI9ta93JYdEAIQAw
+    - _name: level leaderboard
+      _iosId: level leaderboard
+      _androidId: CgkI9ta93JYdEAIQBA
+    _achievements:
+    - _name: Level 10
+      _iosId: Level 10
+      _androidId: CgkI9ta93JYdEAIQBQ
+    - _name: Level 30
+      _iosId: Level 30
+      _androidId: CgkI9ta93JYdEAIQBg
+    - _name: Level 55
+      _iosId: Level 55
+      _androidId: CgkI9ta93JYdEAIQBw
+    - _name: Level 70
+      _iosId: Level 70
+      _androidId: CgkI9ta93JYdEAIQCA
+    - _name: Level 85
+      _iosId: Level 85
+      _androidId: CgkI9ta93JYdEAIQCQ
+    - _name: Level 100
+      _iosId: Level 100
+      _androidId: CgkI9ta93JYdEAIQCg
+    - _name: Level 130
+      _iosId: Level 130
+      _androidId: CgkI9ta93JYdEAIQCw
+    - _name: Level 155
+      _iosId: Level 155
+      _androidId: CgkI9ta93JYdEAIQDA
+    - _name: Level 185
+      _iosId: Level 185
+      _androidId: CgkI9ta93JYdEAIQDQ
+    - _name: Level 200
+      _iosId: Level 200
+      _androidId: CgkI9ta93JYdEAIQDg
+    - _name: Level 222
+      _iosId: Level 222
+      _androidId: CgkI9ta93JYdEAIQDw
+    - _name: Level 250
+      _iosId: Level 250
+      _androidId: CgkI9ta93JYdEAIQEA
+    - _name: Level 270
+      _iosId: Level 270
+      _androidId: CgkI9ta93JYdEAIQEQ
+    - _name: collect star 75
+      _iosId: collect star 75
+      _androidId: CgkI9ta93JYdEAIQEg
+    - _name: collect star 300
+      _iosId: collect star 300
+      _androidId: CgkI9ta93JYdEAIQEw
+    - _name: collect star 600
+      _iosId: collect star 600
+      _androidId: CgkI9ta93JYdEAIQFA
+    - _name: collect star 900
+      _iosId: collect star 900
+      _androidId: CgkI9ta93JYdEAIQFQ
+    - _name: collect score 200000
+      _iosId: collect score 200000
+      _androidId: CgkI9ta93JYdEAIQFg
+    - _name: collect score 400000
+      _iosId: collect score 400000
+      _androidId: CgkI9ta93JYdEAIQFw
+    - _name: collect score 600000
+      _iosId: collect score 600000
+      _androidId: CgkI9ta93JYdEAIQGA
+    _androidXmlResources: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<!--\r\nGoogle Play game services IDs.\r\nSave this file as res/values/games-ids.xml in your project.\r\n-->\r\n<resources>\r\n  <string name=\"app_id\">1002531941238</string>\r\n  <string name=\"package_name\">com.bibergames.toyboxblast</string>\r\n  <string name=\"achievement_reach_level_10._earn_15_coins_and_other_surprise_gifts.\">CgkI9ta93JYdEAIQBQ</string>\r\n  <string name=\"achievement_reach_level_30._earn_15_coins_and_other_surprise_gifts.\">CgkI9ta93JYdEAIQBg</string>\r\n  <string name=\"achievement_reach_level_55._earn_15_coins_and_other_surprise_gifts.\">CgkI9ta93JYdEAIQBw</string>\r\n  <string name=\"achievement_reach_level_70._earn_15_coins_and_other_surprise_gifts.\">CgkI9ta93JYdEAIQCA</string>\r\n  <string name=\"achievement_reach_level_85._earn_15_coins_and_other_surprise_gifts.\">CgkI9ta93JYdEAIQCQ</string>\r\n  <string name=\"achievement_reach_level_100._earn_15_coins_and_other_surprise_gifts.\">CgkI9ta93JYdEAIQCg</string>\r\n  <string name=\"achievement_reach_level_130._earn_15_coins_and_other_surprise_gifts.\">CgkI9ta93JYdEAIQCw</string>\r\n  <string name=\"achievement_reach_level_155._earn_15_coins_and_other_surprise_gifts.\">CgkI9ta93JYdEAIQDA</string>\r\n  <string name=\"achievement_reach_level_185._earn_15_coins_and_other_surprise_gifts.\">CgkI9ta93JYdEAIQDQ</string>\r\n  <string name=\"achievement_reach_level_200._earn_15_coins_and_other_surprise_gifts.\">CgkI9ta93JYdEAIQDg</string>\r\n  <string name=\"achievement_reach_level_222._earn_15_coins_and_other_surprise_gifts.\">CgkI9ta93JYdEAIQDw</string>\r\n  <string name=\"achievement_reach_level_250._earn_15_coins_and_other_surprise_gifts.\">CgkI9ta93JYdEAIQEA</string>\r\n  <string name=\"achievement_reach_level_270._earn_15_coins_and_other_surprise_gifts.\">CgkI9ta93JYdEAIQEQ</string>\r\n  <string name=\"achievement_collect_75_stars.\">CgkI9ta93JYdEAIQEg</string>\r\n  <string name=\"achievement_collect_300_stars\">CgkI9ta93JYdEAIQEw</string>\r\n  <string name=\"achievement_collect_600_stars\">CgkI9ta93JYdEAIQFA</string>\r\n  <string name=\"achievement_collect_900_stars.\">CgkI9ta93JYdEAIQFQ</string>\r\n  <string name=\"achievement_collect_200000_score.\">CgkI9ta93JYdEAIQFg</string>\r\n  <string name=\"achievement_collect_400000score.\">CgkI9ta93JYdEAIQFw</string>\r\n  <string name=\"achievement_collect_600000_score.\">CgkI9ta93JYdEAIQGA</string>\r\n  <string name=\"leaderboard_score_board\">CgkI9ta93JYdEAIQAQ</string>\r\n  <string name=\"leaderboard_star_board\">CgkI9ta93JYdEAIQAw</string>\r\n  <string name=\"leaderboard_level_board\">CgkI9ta93JYdEAIQBA</string>\r\n</resources>\r\n"
+  _inAppPurchaseSettings:
+    _targetAndroidStore: 0
+    _validateAppleReceipt: 1
+    _validateGooglePlayReceipt: 1
+    _products:
+    - _name: Remove_Ads
+      _type: 1
+      _id: bibergames.removeads
+      _price:
+      _description:
+      _storeSpecificIds: []
+    - _name: Pack_50
+      _type: 0
+      _id: bibergames.pack5
+      _price:
+      _description:
+      _storeSpecificIds: []
+    - _name: Pack_100
+      _type: 0
+      _id: bibergames.pack10
+      _price:
+      _description:
+      _storeSpecificIds: []
+    - _name: Pack_200
+      _type: 0
+      _id: bibergames.pack20
+      _price:
+      _description:
+      _storeSpecificIds: []
+    - _name: Pack_400
+      _type: 0
+      _id: bibergames.pack40
+      _price:
+      _description:
+      _storeSpecificIds: []
+  _notificationSettings:
+    _autoInit: 0
+    _autoInitDelay: 0
+    _oneSignalAppId: 012edc8b-f520-4ba5-adb7-19a3347fe88b
+  _ratingRequestSettings:
+    _iosDialogContent:
+      title: Rate $PRODUCT_NAME
+      message: Would you mind spending a moment to rate $PRODUCT_NAME on the App Store?
+      postponeButtonText: Remind Me Later
+      refuseButtonText: Don't Ask Again
+      rateButtonText: Rate Now!
+    _androidDialogContent:
+      title: Rate $PRODUCT_NAME
+      startMessage: How would you rate $PRODUCT_NAME?
+      lowRatingMessage: That's bad. Would you like to give us some feedback instead?
+      highRatingMessage: Awesome! Let's do it!
+      postponeButtonText: Not Now
+      refuseButtonText: Don't Ask Again
+      cancelButtonText: Cancel
+      feedbackButtonText: Send Feedback
+      rateButtonText: Rate Now!
+    _minimumAcceptedStars: 4
+    _supportEmail:
+    _iosAppId:
+    _annualCap: 12
+  _isAdModuleEnable: 1
+  _isIAPModuleEnable: 0
+  _isGameServiceModuleEnable: 1
+  _isNotificationModuleEnable: 0
